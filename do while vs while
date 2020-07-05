@@ -1,0 +1,28 @@
+package practice;
+
+public class dowhile1 {
+	public static void main(String []args) {
+		int i;
+		
+		i=25;
+
+		while (i<=16)
+		{
+			System.out.println("The current loop variable is: "+i);
+			i++;
+		}
+  }
+}
+
+
+
+/*		do {
+			System.out.println("The do-while loop variable is: "+i);
+			i++;
+		} while (i<=15);
+*/	
+
+
+
+do-while -> execute at least once no matter what -> i=25 -> "The do-while loop variable is: 25" appears
+while -> execute only when all the conditions are met -> i=25 -> nothing appears
