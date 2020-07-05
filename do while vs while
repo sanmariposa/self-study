@@ -23,6 +23,11 @@ public class dowhile1 {
 */	
 
 
-
+#1
 do-while -> execute at least once no matter what -> i=25 -> "The do-while loop variable is: 25" appears
 while -> execute only when all the conditions are met -> i=25 -> nothing appears
+
+#2
+do-while -> do {} while ;
+while -> while {}
+
